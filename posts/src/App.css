@@ -1,0 +1,43 @@
+.posts{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(242, 243, 243);
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid rgb(224, 224, 224);
+  margin: 10px;
+  background-color: #fff;
+  width: 40vw;
+  font-family: 'Roboto';
+  padding: 20px;
+  
+}
+
+
+
+.comment-btn-div {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.comment-btn{
+  margin: 10px;
+}
+
+.showcomments {
+  display: flex;
+  flex-direction: column;
+}
+
+.hide-comments{
+  display: none;
+}
