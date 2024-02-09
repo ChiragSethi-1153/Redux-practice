@@ -6,7 +6,7 @@ mongoose.connect(process.env.DB_URL, {
 })
 
 mongoose.connection.on("connected", () => {
-    console.log("Mongoose connected to db")
+    console.log("Mongoose connected to db" )
 })
 
 mongoose.connection.on('error', (err) => {
